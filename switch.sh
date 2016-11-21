@@ -18,4 +18,5 @@ else
 	update-grub
 	systemctl set-default multi-user.target		
 fi
+rm switch.sh
 reboot
