@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 if grep -q "#GRUB_CMDLINE_LINUX_DEFAULT" /etc/default/grub
 then
 	sed -i s/"#GRUB_CMDLINE_LINUX_DEFAULT"/GRUB_CMDLINE_LINUX_DEFAULT/g /etc/default/grub
